@@ -1,2 +1,2 @@
-# fire-arrow-proxy
-My first proxy
+# fire-arrow
+My first web-based server
