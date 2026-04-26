@@ -14,8 +14,8 @@
 	},
 	"keywords": [
 		"web",
-  		"server",
-  		"network"
+		"server",
+		"network"
 	],
 	"packageManager": "pnpm@10.28.0",
 	"author": "",
