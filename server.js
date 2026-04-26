@@ -7,7 +7,7 @@ const app = express();
 app.use(cors());
 
 // Proxy route
-app.get("/proxy", async (req, res) => {
+app.get("/service", async (req, res) => {
   try {
     const url = req.query.url;
 
@@ -29,5 +29,5 @@ app.get("/proxy", async (req, res) => {
 const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, () => {
-  console.log("Proxy running on port", PORT);
+  console.log("serever running on port", PORT);
 });
