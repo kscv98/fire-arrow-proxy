@@ -27,7 +27,7 @@ app.get("/service", async (req, res) => {
 
 // IMPORTANT for Render
 const PORT = process.env.PORT || 3000;
-
+//because render dosn't have a standerd port
 app.listen(PORT, () => {
   console.log("serever running on port", PORT);
 });
